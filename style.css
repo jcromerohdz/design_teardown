@@ -9,12 +9,14 @@ body{
     font-family: var(--montserrat);
     
 }
+
 .container{
     max-width: 100%;
     margin: 0;
     background-color: gray;
 
 }
+
 header{
     background: #9a9a9a;
     height: 150px;
@@ -133,6 +135,7 @@ header li button{
 .second_section_content p{
     font-size: 23px;
 }
+
 .second_section #first_square{
     flex-basis: 20%;
     padding: 1rem;
@@ -222,14 +225,17 @@ header li button{
     position: relative;
     background-color: whitesmoke;  
 }
+
 #fourth_section_author{
     flex-basis: 15%;
     padding: 1rem; 
 }
+
 #fourth_section_author_article{
     flex-basis: 85%;
     padding: 1rem;
 }
+
 #fourth_section_author_picture{
     width: 150px;
     height: 150px;
@@ -240,9 +246,12 @@ header li button{
 #fourth_section_author_article_content{
     margin:2% 40% 2% 5%;
 }
+
+
 #fourth_section_author_article_content h1{
     font-size: 32px;
 }
+
 #fourth_section_author_article_content p{
     font-size: 23px;
 }
@@ -255,7 +264,6 @@ header li button{
     margin: 0 auto;
     position: relative;
     background-color: whitesmoke;
-
 }
 
 .fourth_section_column_1{
@@ -294,6 +302,7 @@ header li button{
     background-color: #adadad;
     float: left;
 }
+
 .fifth_section_container{
     width: 100%;
     height: 450px;
@@ -380,6 +389,7 @@ header li button{
     position: relative;
     background-color: whitesmoke;
 }
+
 .sixth_content_column_1_2{
     flex-basis: 100%;
     height: 900px;
@@ -412,3 +422,58 @@ header li button{
     height: 36px;
     border-radius: 10px;
 }
+
+.footer_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    background-color: #adadad;
+    
+}
+
+.footer_column{
+    flex-basis: 100%;
+    height: 400px;
+    padding: 1rem;
+    text-align: center;
+}
+
+#footer_content{
+    width: 80%;
+    display: inline;
+    margin-top: 105px; 
+}
+
+#footer_content ul{
+    margin-left: 2em;
+    padding-right: 3em;
+    list-style-type: disc;     
+}
+
+#footer_content li{
+    list-style-type: disc;
+    color: #f00;
+    margin-left: 0.5em;
+    padding-left: 0.5em;
+    font-size: 20px;
+    line-height: 33px;
+    display: inline-block;  
+    font-size: 22px;
+}
+
+#footer_content li::before{
+    content: "•";
+    color: red;
+}
+
+#footer_content  li>span{
+    color: white;
+}
+
+#footer_content h1{
+    font-size: 35px;
+    color: white;
+
+}
+
