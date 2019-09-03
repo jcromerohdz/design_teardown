@@ -3,9 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
-    font-family: var(--montserrat);
-    
+    font-family: var(--montserrat); 
 }
 
 .container{
@@ -480,6 +480,5 @@ header li button{
 #footer_content h1{
     font-size: 35px;
     color: white;
-
 }
 
