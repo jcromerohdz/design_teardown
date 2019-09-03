@@ -1,5 +1,3 @@
-/* #808080  #8d8d8d #737373 #808080*/
-
 *{
     padding: 0;
     margin: 0;
@@ -14,7 +12,6 @@ body{
     max-width: 100%;
     margin: 0;
     background-color: gray;
-
 }
 
 header{
@@ -204,18 +201,23 @@ header li button{
     position: relative;
     background-color: silver;
 }
+
 #third_section_container{
     text-align: center;
 }
+
 #third_section_container p{
     font-size: 23px
 }
+
 #third_section_container h1{
     font-size: 37px
 }
+
 #third_section_content{
     margin:8% 20% 0 20%;
 }
+
 .fourth_section{
     display: flex;
     flex-wrap: wrap;
