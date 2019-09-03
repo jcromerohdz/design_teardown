@@ -1,3 +1,7 @@
 # design_teardown
+
+## Description
 This is a design teardown practice with css grid
-#url:https://www.theodinproject.com/courses/html5-and-css3/lessons/design-teardown
+
+## URL
+[Live preview](http://htmlpreview.github.io/?https://github.com/jcromerohdz/design_teardown/blob/layout/index.html)
