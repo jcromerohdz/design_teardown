@@ -128,6 +128,7 @@ header li button{
     padding: 1rem;
     height: 400px; 
 }
+
 .second_section_content h1{
     font-size: 32px;
 }
@@ -169,8 +170,8 @@ header li button{
     height: 550px;
     border-radius: 20px;
     text-align: center;
-
 }
+
 .big_box_container h1{
     font-size: 34px;
     text-align: center;
@@ -248,10 +249,10 @@ header li button{
     border-radius: 20px;
     margin:10% 20% 0 20%;
 }
+
 #fourth_section_author_article_content{
     margin:2% 40% 2% 5%;
 }
-
 
 #fourth_section_author_article_content h1{
     font-size: 32px;
@@ -281,6 +282,7 @@ header li button{
     flex-basis: 50%;
     padding: 1rem;
 }
+
 .fourth_section_article_content{
     width: 75%;
     float: right;
@@ -433,8 +435,7 @@ header li button{
     flex-wrap: wrap;
     width: 100%;
     position: relative;
-    background-color: #adadad;
-    
+    background-color: #adadad; 
 }
 
 .footer_column{
