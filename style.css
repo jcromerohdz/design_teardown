@@ -21,7 +21,7 @@ header {
 }
 
 nav {
-  Display: flex;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
@@ -35,8 +35,8 @@ nav ul {
   width: 100%;
 }
 
-nav ul li {
-  position: relative;  
+nav ul > li {
+  position: relative; 
   padding-left: 75px;
 }
 
@@ -75,7 +75,7 @@ header li button {
   flex-basis: 10%;
   font-size: 23px;
   margin: 0 auto;
-  color:white;
+  color: white;
 }
 
 #navigation {
