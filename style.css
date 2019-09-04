@@ -21,6 +21,11 @@ header {
 }
 
 nav {
+  Display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  position: relative;
   padding: 20px;
   padding-top: 35px;
 }
@@ -28,6 +33,11 @@ nav {
 nav ul {
   display: table;
   width: 100%;
+}
+
+nav ul li{
+  position: relative;  
+  padding-left: 75px;
 }
 
 header li {
@@ -59,6 +69,18 @@ header li button {
   color: #fff;
   cursor: pointer;
   text-align: center;
+}
+
+#logo{
+  flex-basis: 10%;
+  font-size: 23px;
+  margin: 0 auto;
+  color:white;
+}
+
+#navigation{
+  flex-basis: 90%;
+  padding-left: 302px;
 }
 
 .flexy {
@@ -147,7 +169,7 @@ header li button {
   height: 400px;
 }
 
-.second_section_content h1 {
+.second_section_content h2 {
   font-size: 32px;
 }
 
@@ -201,7 +223,7 @@ header li button {
   text-align: center;
 }
 
-.big_box_container h1 {
+.big_box_container h2 {
   font-size: 34px;
   text-align: center;
 }
@@ -357,7 +379,7 @@ header li button {
   line-height: 33px;
 }
 
-#fifth_section_content h1 {
+#fifth_section_content h2 {
   font-size: 32px;
 }
 
@@ -392,7 +414,7 @@ header li button {
   color: #000;
 }
 
-.sixth_container_wrapper h1 {
+.sixth_container_wrapper h2 {
   font-size: 35px;
 }
 
@@ -447,7 +469,7 @@ header li button {
   text-align: center;
 }
 
-#sixth_content h1 {
+#sixth_content h2 {
   font-size: 35px;
 }
 
