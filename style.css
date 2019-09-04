@@ -35,7 +35,7 @@ nav ul {
   width: 100%;
 }
 
-nav ul li{
+nav ul li {
   position: relative;  
   padding-left: 75px;
 }
@@ -71,14 +71,14 @@ header li button {
   text-align: center;
 }
 
-#logo{
+#logo {
   flex-basis: 10%;
   font-size: 23px;
   margin: 0 auto;
   color:white;
 }
 
-#navigation{
+#navigation {
   flex-basis: 90%;
   padding-left: 302px;
 }
